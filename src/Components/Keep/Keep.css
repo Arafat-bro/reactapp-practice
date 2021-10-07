@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    box-shadow:border-box;
+}
+.fa-trash {
+    border:none;
+    outline:none;
+    font-size:1.1rem;
+    color:black;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    left:180px;
+    bottom:-28px;
+    background:yellow;
+    width:34px;
+    height:34px;
+    border:none;
+    border-radius:50%;
+    box-shadow: 0 1px 2px rgb(0, 0, 0);
+}
+.fa-trash:hover{
+    cursor:pointer;
+    color:red;
+    background:white;
+}
+.keep-header{
+    width:100%;
+    height:60px;
+    background-color:yellow;
+}
+ form{
+    width: 400px;
+    position: relative;
+    margin:32px auto 40px auto;
+    background:#fff;
+    padding: 10px;
+    border-radius:7px;
+    box-shadow:0 1px 7px rgb(128,128,128);
+}
+form input{
+    width:100%;
+    border:none;
+    padding:3px 10px;
+    margin-bottom:15px;
+    outline:none;
+    font-size:1rem;
+}
+form textarea{
+    width:100%;
+    border:none;
+    padding:4px 10px;
+    margin-bottom:20px;
+    outline:none;
+    font-size:1rem;
+    resize:none;
+}
+form .fa-plus{
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    right:18px;
+    bottom:-18px;
+    background:yellow;
+    width:36px;
+    height:36px;
+    border:none;
+    border-radius:50%;
+    box-shadow: 0 1px 2px rgb(0,0,0);
+    outline:none;
+}
+form .fa-plus:hover{
+    cursor:pointer;
+    background:#fff;
+    color:rgb(0, 240, 0);
+    overflow:hidden;
+}
+form .fa-angle-up{
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    left:18px;
+    bottom:1px;
+    font-size:1.5rem;
+    font-weight:600;
+}
+form .fa-angle-up:hover{
+    cursor:pointer;
+}
+.note{
+    background:#fff;
+    width:240px;
+    border-radius:7px;
+    box-shadow:0 2px 5px rgb(175,175,175);
+    padding:10px;
+    margin:16px;
+    float:left;
+}
+.note h1{
+    font-size:1rem;
+    margin-bottom:6px;
+}
+.note p{
+    font-size:1rem;
+    margin-bottom:10px;
+    white-space:pre-wrap;
+    word-wrap:break-word;
+    text-align:left;
+}
+.footer{
+    margin-top:300px;
+}
